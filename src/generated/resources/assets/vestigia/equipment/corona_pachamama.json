@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "vestigia:corona_pachamama"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "vestigia:corona_pachamama"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "vestigia:corona_pachamama"
+      }
+    ]
+  }
+}

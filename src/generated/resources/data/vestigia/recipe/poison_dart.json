@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "minecraft:feather",
+    "P": "minecraft:stick",
+    "X": "minecraft:spider_eye"
+  },
+  "pattern": [
+    "  F",
+    " P ",
+    "X  "
+  ],
+  "result": {
+    "count": 16,
+    "id": "vestigia:poison_dart"
+  }
+}

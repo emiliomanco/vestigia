@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.07,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vestigia:incan_club"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "vestigia:entities/incan_warrior"
+}

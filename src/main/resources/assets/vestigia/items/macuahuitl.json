@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "vestigia:item/maquahuitl",
+    "model": {
+      "type": "geckolib:geckolib"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "minecraft:feather",
+    "P": "minecraft:stick",
+    "X": "minecraft:glowstone_dust"
+  },
+  "pattern": [
+    "  F",
+    " P ",
+    "X  "
+  ],
+  "result": {
+    "count": 16,
+    "id": "vestigia:marker_dart"
+  }
+}

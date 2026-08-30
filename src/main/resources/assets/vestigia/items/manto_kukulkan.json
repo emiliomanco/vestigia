@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "vestigia:item/manto_kukulkan_item",
+    "model": {
+      "type": "geckolib:geckolib"
+    }
+  }
+}

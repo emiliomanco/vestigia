@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+out/
+repo/
+
+# Run directories produced by runClient / runServer / runData
+run/
+run-client-alt/
+run-data/
+runs/
+
+# Datagen cache - regenerated on every runData
+src/generated/resources/.cache/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NeoForge / ModDevGradle local artifacts
+*.log
+logs/
+crash-reports/

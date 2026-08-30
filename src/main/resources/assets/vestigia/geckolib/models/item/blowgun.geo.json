@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 76,
+				"texture_height": 76,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "blowgun",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, -18], "size": [2, 2, 36], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "left_arm",
+					"pivot": [3.44709, 1.4975, 10.40081],
+					"rotation": [-84.8246, -14.94158, 178.66221],
+					"cubes": [
+						{"origin": [1.44709, -4.5025, 8.40081], "size": [4, 12, 4], "uv": [16, 32]}
+					]
+				},
+				{
+					"name": "right_arm",
+					"pivot": [-3.44708, 1.4975, 10.40081],
+					"rotation": [-84.8246, 14.9416, -178.6622],
+					"cubes": [
+						{"origin": [-5.44708, -4.5025, 8.40081], "size": [4, 12, 4], "uv": [0, 32]}
+					]
+				}
+			]
+		}
+	]
+}

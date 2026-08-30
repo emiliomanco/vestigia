@@ -1,0 +1,212 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.corona_pachamama",
+				"texture_width": 64,
+				"texture_height": 96,
+				"visible_bounds_width": 2.2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.7, 0]
+			},
+			"bones": [
+				{
+					"name": "armorHead",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "crown_ring",
+					"parent": "armorHead",
+					"pivot": [0, 30, 0],
+					"cubes": [
+						{"origin": [-4.5, 28.4, -4.5], "size": [9, 3.2, 1], "uv": [0, 0]},
+						{"origin": [-4.5, 28.4, 3.5], "size": [9, 3.2, 1], "uv": [20, 0]},
+						{"origin": [-4.5, 28.4, -3.5], "size": [1, 3.2, 7], "uv": [0, 5]},
+						{"origin": [3.5, 28.4, -3.5], "size": [1, 3.2, 7], "uv": [16, 5]}
+					]
+				},
+				{
+					"name": "gold_inlay",
+					"parent": "crown_ring",
+					"pivot": [0, 30, 0],
+					"cubes": [
+						{"origin": [-4.62, 29.6, -4.62], "size": [9.24, 0.8, 0.3], "uv": [2, 25]},
+						{"origin": [-4.62, 29.6, 4.32], "size": [9.24, 0.8, 0.3], "uv": [1, 25]},
+						{"origin": [-4.62, 29.6, -4.32], "size": [0.3, 0.8, 8.64], "uv": [0, 17]},
+						{"origin": [4.32, 29.6, -4.32], "size": [0.3, 0.8, 8.64], "uv": [4, 17]}
+					]
+				},
+				{
+					"name": "crown_peaks",
+					"parent": "armorHead",
+					"pivot": [0, 31.6, 0],
+					"cubes": [
+						{"origin": [-1.6, 31.6, -4.5], "size": [3.2, 3.8, 1], "uv": [52, 5]},
+						{"origin": [-4.5, 31.6, -4.5], "size": [2, 2.1, 1], "uv": [36, 16]},
+						{"origin": [2.5, 31.6, -4.5], "size": [2, 2.7, 1], "uv": [42, 16]},
+						{"origin": [-1.6, 31.6, 3.5], "size": [3.2, 3.1, 1], "uv": [48, 16]},
+						{"origin": [-4.5, 31.6, 3.5], "size": [2, 2.6, 1], "uv": [57, 16]},
+						{"origin": [2.5, 31.6, 3.5], "size": [2, 1.9, 1], "uv": [0, 26]},
+						{"origin": [-4.5, 31.6, -2.6], "size": [1, 3.2, 2.2], "uv": [0, 29]},
+						{"origin": [-4.5, 31.6, 0.4], "size": [1, 2.4, 2.2], "uv": [7, 29]},
+						{"origin": [3.5, 31.6, -2.6], "size": [1, 2.6, 2.2], "uv": [14, 29]},
+						{"origin": [3.5, 31.6, 0.4], "size": [1, 3.3, 2.2], "uv": [21, 29]},
+						{"origin": [-3, 34.6, -4.5], "size": [1.4, 1.1, 1], "uv": [6, 26]},
+						{"origin": [1.6, 34.6, -4.5], "size": [1.4, 1.1, 1], "uv": [11, 26]}
+					]
+				},
+				{
+					"name": "moss_layer",
+					"parent": "armorHead",
+					"pivot": [0, 31, 0],
+					"cubes": [
+						{"origin": [-4.65, 30.5, -4.65], "size": [9.3, 1.2, 1.3], "uv": [16, 26]},
+						{"origin": [-4.65, 30.5, 3.35], "size": [9.3, 1.2, 1.3], "uv": [38, 26]},
+						{"origin": [-4.65, 30.5, -3.35], "size": [1.3, 1.2, 6.7], "uv": [1, 36]},
+						{"origin": [3.35, 30.5, -3.35], "size": [1.3, 1.2, 6.7], "uv": [17, 36]},
+						{"origin": [-1.2, 27.7, 4.1], "size": [2.4, 1, 0.6], "uv": [40, 30]}
+					]
+				},
+				{
+					"name": "root_a",
+					"parent": "armorHead",
+					"pivot": [-4.2, 28.4, -2],
+					"rotation": [0, 0, 6],
+					"cubes": [
+						{"origin": [-4.6, 24.6, -2.4], "size": [0.8, 3.8, 0.8], "uv": [62, 1]}
+					]
+				},
+				{
+					"name": "root_b",
+					"parent": "armorHead",
+					"pivot": [4.2, 28.4, 1],
+					"rotation": [0, 0, -8],
+					"cubes": [
+						{"origin": [3.8, 25.4, 0.6], "size": [0.8, 3, 0.8], "uv": [47, 30]}
+					]
+				},
+				{
+					"name": "root_c",
+					"parent": "armorHead",
+					"pivot": [1.5, 28.4, 4.2],
+					"rotation": [7, 0, 0],
+					"cubes": [
+						{"origin": [1.1, 25, 3.8], "size": [0.8, 3.4, 0.8], "uv": [51, 30]}
+					]
+				},
+				{
+					"name": "sprout_front",
+					"parent": "armorHead",
+					"pivot": [0, 34, -4],
+					"cubes": [
+						{"origin": [-0.5, 35.4, -4.5], "size": [1, 1.8, 1], "uv": [53, 29]}
+					]
+				},
+				{
+					"name": "sprout_back",
+					"parent": "armorHead",
+					"pivot": [0, 33.6, 4],
+					"cubes": [
+						{"origin": [-0.5, 34.7, 3.5], "size": [1, 2.4, 1], "uv": [57, 29]}
+					]
+				},
+				{
+					"name": "sprout_left",
+					"parent": "armorHead",
+					"pivot": [-4, 34, 0],
+					"cubes": [
+						{"origin": [-4.5, 34, -0.4], "size": [1, 2.6, 0.9], "uv": [61, 36]}
+					]
+				},
+				{
+					"name": "sprout_right",
+					"parent": "armorHead",
+					"pivot": [4, 34, 0],
+					"cubes": [
+						{"origin": [3.5, 34.2, -0.5], "size": [1, 2.2, 0.9], "uv": [18, 46]}
+					]
+				},
+				{
+					"name": "sprout_diag_a",
+					"parent": "armorHead",
+					"pivot": [-3, 33.6, -3],
+					"rotation": [0, 0, 12],
+					"cubes": [
+						{"origin": [-3.8, 33.6, -3.5], "size": [1, 2, 1], "uv": [60, 35]}
+					]
+				},
+				{
+					"name": "sprout_diag_b",
+					"parent": "armorHead",
+					"pivot": [3, 33.4, 3],
+					"rotation": [0, 0, -10],
+					"cubes": [
+						{"origin": [2.4, 33.6, -3.5], "size": [1, 2, 1], "uv": [60, 35]}
+					]
+				},
+				{
+					"name": "flower_stem",
+					"parent": "armorHead",
+					"pivot": [0, 32, 0],
+					"cubes": [
+						{"origin": [-0.5, 32, -0.5], "size": [1, 4.2, 1], "uv": [0, 49]}
+					]
+				},
+				{
+					"name": "flower_head",
+					"parent": "flower_stem",
+					"pivot": [0, 36.2, 0],
+					"cubes": [
+						{"origin": [-1, 36.2, -1], "size": [2, 1.6, 2], "uv": [42, 45]}
+					]
+				},
+				{
+					"name": "petal_n",
+					"parent": "flower_head",
+					"pivot": [0, 37, -1],
+					"rotation": [-26, 0, 0],
+					"cubes": [
+						{"origin": [-1.6, 36.9, -3.7], "size": [3.2, 0.2, 2.7], "uv": [51, 46]}
+					]
+				},
+				{
+					"name": "petal_s",
+					"parent": "flower_head",
+					"pivot": [0, 37, 1],
+					"rotation": [26, 0, 0],
+					"cubes": [
+						{"origin": [-1.6, 36.9, 1], "size": [3.2, 0.2, 2.7], "uv": [5, 50]}
+					]
+				},
+				{
+					"name": "petal_w",
+					"parent": "flower_head",
+					"pivot": [-1, 37, 0],
+					"rotation": [0, 0, 26],
+					"cubes": [
+						{"origin": [-3.7, 36.9, -1.6], "size": [2.7, 0.2, 3.2], "uv": [17, 49]}
+					]
+				},
+				{
+					"name": "petal_e",
+					"parent": "flower_head",
+					"pivot": [1, 37, 0],
+					"rotation": [0, 0, -26],
+					"cubes": [
+						{"origin": [1, 36.9, -1.6], "size": [2.7, 0.2, 3.2], "uv": [28, 49]}
+					]
+				},
+				{
+					"name": "petal_nw",
+					"parent": "flower_head",
+					"pivot": [-0.8, 37, -0.8],
+					"rotation": [-18, 45, 0],
+					"cubes": [
+						{"origin": [-2.9, 37.2, -1.1], "size": [2.2, 0.2, 2.2], "uv": [40, 49]}
+					]
+				}
+			]
+		}
+	]
+}

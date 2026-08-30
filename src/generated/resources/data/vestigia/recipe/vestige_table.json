@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "vestigia:obsidian_fragment",
+    "G": "minecraft:gold_ingot",
+    "S": "minecraft:chiseled_stone_bricks"
+  },
+  "pattern": [
+    "SGS",
+    "GFG",
+    "SGS"
+  ],
+  "result": {
+    "id": "vestigia:vestige_table"
+  }
+}

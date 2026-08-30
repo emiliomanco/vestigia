@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "vestigia:jademask"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "vestigia:jademask"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "vestigia:jademask"
+      }
+    ]
+  }
+}

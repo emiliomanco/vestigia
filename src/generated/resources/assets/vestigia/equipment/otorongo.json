@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "vestigia:otorongohelm"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "vestigia:otorongohelm"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "vestigia:otorongohelm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "vestigia:vestige_ritual",
+  "experience": 20.0,
+  "ingredients": [
+    "vestigia:punchao",
+    "minecraft:gold_ingot",
+    "minecraft:gold_block",
+    "vestigia:offering"
+  ],
+  "result": {
+    "id": "vestigia:sun_disc_of_inti"
+  }
+}

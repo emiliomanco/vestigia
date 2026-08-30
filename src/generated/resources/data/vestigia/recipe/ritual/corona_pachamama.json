@@ -1,0 +1,12 @@
+{
+  "type": "vestigia:vestige_ritual",
+  "experience": 24.0,
+  "ingredients": [
+    "vestigia:obsidian_fragment",
+    "minecraft:emerald_block",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "vestigia:corona_pachamama"
+  }
+}

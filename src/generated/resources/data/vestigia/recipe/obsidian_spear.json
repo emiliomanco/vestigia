@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "vestigia:obsidian_fragment",
+    "P": "minecraft:stick",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    " SF",
+    " PS",
+    "P  "
+  ],
+  "result": {
+    "id": "vestigia:obsidian_spear"
+  }
+}

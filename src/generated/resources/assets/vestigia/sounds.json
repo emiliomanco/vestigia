@@ -1,0 +1,184 @@
+{
+  "block.vestige_table.craft_animal": {
+    "sounds": [
+      "vestigia:vestigestable/vestige_table_craft_animal"
+    ],
+    "subtitle": "subtitles.vestigia.block.vestige_table.craft_animal"
+  },
+  "block.vestige_table.craft_god": {
+    "sounds": [
+      "vestigia:vestigestable/vestige_table_craft_god"
+    ],
+    "subtitle": "subtitles.vestigia.block.vestige_table.craft_god"
+  },
+  "block.vestige_table.ready": {
+    "sounds": [
+      "vestigia:vestigestable/vestige_table_ready"
+    ],
+    "subtitle": "subtitles.vestigia.block.vestige_table.ready"
+  },
+  "entity.jaguar.attack": {
+    "sounds": [
+      "vestigia:jaguar/jaguargrowl_attack"
+    ],
+    "subtitle": "subtitles.vestigia.entity.jaguar.attack"
+  },
+  "entity.jaguar.chase": {
+    "sounds": [
+      "vestigia:jaguar/jaguargrowl_chase"
+    ],
+    "subtitle": "subtitles.vestigia.entity.jaguar.chase"
+  },
+  "entity.jaguar.pounce": {
+    "sounds": [
+      "vestigia:jaguar/jaguargrowl_jump"
+    ],
+    "subtitle": "subtitles.vestigia.entity.jaguar.pounce"
+  },
+  "entity.mayan_nacom.stomp": {
+    "sounds": [
+      "vestigia:boss/stomp_boss"
+    ],
+    "subtitle": "subtitles.vestigia.entity.mayan_nacom.stomp"
+  },
+  "entity.mayan_shaman.curse": {
+    "sounds": [
+      "vestigia:chaman/chaman_curse"
+    ],
+    "subtitle": "subtitles.vestigia.entity.mayan_shaman.curse"
+  },
+  "entity.mayan_warrior.battlecry": {
+    "sounds": [
+      "vestigia:maya/battlecry1_maya",
+      "vestigia:maya/battlecry2_maya",
+      "vestigia:maya/battlecry3_maya"
+    ],
+    "subtitle": "subtitles.vestigia.entity.mayan_warrior.battlecry"
+  },
+  "entity.mayan_warrior.flute": {
+    "sounds": [
+      "vestigia:maya/flute1_maya",
+      "vestigia:maya/flute2_maya",
+      "vestigia:maya/flute3_maya"
+    ],
+    "subtitle": "subtitles.vestigia.entity.mayan_warrior.flute"
+  },
+  "entity.mayan_warrior.taunt": {
+    "sounds": [
+      "vestigia:maya/verybrave_maya1",
+      "vestigia:maya/mypeople_maya2",
+      "vestigia:maya/mebigwarrior_maya3",
+      "vestigia:maya/verystrong_maya4"
+    ],
+    "subtitle": "subtitles.vestigia.entity.mayan_warrior.taunt"
+  },
+  "event.eclipse.begin": {
+    "sounds": [
+      "vestigia:eclipse_begin"
+    ],
+    "subtitle": "subtitles.vestigia.event.eclipse.begin"
+  },
+  "event.eclipse.end": {
+    "sounds": [
+      "vestigia:eclipse_end"
+    ],
+    "subtitle": "subtitles.vestigia.event.eclipse.end"
+  },
+  "event.waka_night.begin": {
+    "sounds": [
+      "vestigia:waka_night_begin"
+    ],
+    "subtitle": "subtitles.vestigia.event.waka_night.begin"
+  },
+  "item.antara.breath": {
+    "sounds": [
+      "vestigia:antara_breath"
+    ],
+    "subtitle": "subtitles.vestigia.item.antara.breath"
+  },
+  "item.antara.calm": {
+    "sounds": [
+      "vestigia:antara_calm"
+    ],
+    "subtitle": "subtitles.vestigia.item.antara.calm"
+  },
+  "item.antara.mourning": {
+    "sounds": [
+      "vestigia:antara_mourning"
+    ],
+    "subtitle": "subtitles.vestigia.item.antara.mourning"
+  },
+  "item.antara.rain": {
+    "sounds": [
+      "vestigia:antara_rain"
+    ],
+    "subtitle": "subtitles.vestigia.item.antara.rain"
+  },
+  "item.antara.reveal": {
+    "sounds": [
+      "vestigia:antara_reveal"
+    ],
+    "subtitle": "subtitles.vestigia.item.antara.reveal"
+  },
+  "item.blowgun.shoot": {
+    "sounds": [
+      "vestigia:items/blowgun/blowgun1",
+      "vestigia:items/blowgun/blowgun2",
+      "vestigia:items/blowgun/blowgun3"
+    ],
+    "subtitle": "subtitles.vestigia.item.blowgun.shoot"
+  },
+  "item.lunar_mirror.use": {
+    "sounds": [
+      "vestigia:items/lunarmirror/lunarmirrorvariant1",
+      "vestigia:items/lunarmirror/lunarmirrorvariant2",
+      "vestigia:items/lunarmirror/lunarmirrorvariant3",
+      "vestigia:items/lunarmirror/lunarmirrorvariant4"
+    ],
+    "subtitle": "subtitles.vestigia.item.lunar_mirror.use"
+  },
+  "item.obsidian_spear.impact": {
+    "sounds": [
+      "vestigia:items/spear/spear_impact"
+    ],
+    "subtitle": "subtitles.vestigia.item.obsidian_spear.impact"
+  },
+  "item.obsidian_spear.throw": {
+    "sounds": [
+      "vestigia:items/spear/spear_throw1",
+      "vestigia:items/spear/spear_throw2",
+      "vestigia:items/spear/spear_throw3"
+    ],
+    "subtitle": "subtitles.vestigia.item.obsidian_spear.throw"
+  },
+  "item.sun_disc.catch": {
+    "sounds": [
+      "vestigia:items/sundisc/catch_disc"
+    ],
+    "subtitle": "subtitles.vestigia.item.sun_disc.catch"
+  },
+  "item.sun_disc.throw": {
+    "sounds": [
+      "vestigia:items/sundisc/disc_throw"
+    ],
+    "subtitle": "subtitles.vestigia.item.sun_disc.throw"
+  },
+  "item.viracocha_staff.resume_time": {
+    "sounds": [
+      "vestigia:items/viracocha_staff/resume_time"
+    ],
+    "subtitle": "subtitles.vestigia.item.viracocha_staff.resume_time"
+  },
+  "item.viracocha_staff.stop_time": {
+    "sounds": [
+      "vestigia:items/viracocha_staff/stop_time"
+    ],
+    "subtitle": "subtitles.vestigia.item.viracocha_staff.stop_time"
+  },
+  "item.viracocha_staff.while_time_stopped": {
+    "sounds": [
+      "vestigia:items/viracocha_staff/while_time_stopped"
+    ],
+    "subtitle": "subtitles.vestigia.item.viracocha_staff.while_time_stopped"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "vestigia:vestige_ritual",
+  "experience": 24.0,
+  "ingredients": [
+    "vestigia:jade_mask",
+    "minecraft:feather",
+    "minecraft:phantom_membrane"
+  ],
+  "result": {
+    "id": "vestigia:manto_kukulkan"
+  }
+}

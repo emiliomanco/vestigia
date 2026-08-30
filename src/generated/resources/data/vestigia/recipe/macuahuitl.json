@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "vestigia:obsidian_fragment",
+    "M": "#minecraft:planks",
+    "P": "minecraft:stick"
+  },
+  "pattern": [
+    " FM",
+    "FMF",
+    "PF "
+  ],
+  "result": {
+    "id": "vestigia:macuahuitl"
+  }
+}

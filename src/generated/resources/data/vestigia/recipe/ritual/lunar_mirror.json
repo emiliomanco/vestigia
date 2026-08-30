@@ -1,0 +1,13 @@
+{
+  "type": "vestigia:vestige_ritual",
+  "experience": 20.0,
+  "ingredients": [
+    "vestigia:line_tablet",
+    "minecraft:iron_ingot",
+    "minecraft:amethyst_shard",
+    "minecraft:prismarine_crystals"
+  ],
+  "result": {
+    "id": "vestigia:lunar_mirror"
+  }
+}

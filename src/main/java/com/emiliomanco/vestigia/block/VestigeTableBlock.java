@@ -1,0 +1,61 @@
+package com.emiliomanco.vestigia.block;
+
+import com.emiliomanco.vestigia.block.entity.VestigeTableBlockEntity;
+import com.emiliomanco.vestigia.registry.ModBlockEntities;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.RenderShape;
+import net.minecraft.world.phys.BlockHitResult;
+import org.jspecify.annotations.Nullable;
+
+public class VestigeTableBlock extends Block implements EntityBlock {
+
+    public VestigeTableBlock(Properties properties) {
+        super(properties);
+    }
+
+    @Override
+    public @Nullable BlockEntity newBlockEntity(BlockPos worldPosition, BlockState blockState) {
+        return new VestigeTableBlockEntity(worldPosition, blockState);
+    }
+
+    @Override
+    protected RenderShape getRenderShape(BlockState state) {
+        return RenderShape.INVISIBLE;
+    }
+
+    @Override
+    protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
+        if (level.isClientSide()) {
+            return InteractionResult.SUCCESS;
+        }
+        if (level.getBlockEntity(pos) instanceof VestigeTableBlockEntity table) {
+            player.openMenu(table);
+            return InteractionResult.SUCCESS;
+        }
+        return InteractionResult.PASS;
+    }
+
+    @Override
+    public <T extends BlockEntity> @Nullable BlockEntityTicker<T> getTicker(Level level, BlockState blockState, BlockEntityType<T> type) {
+        if (level.isClientSide()) {
+            return null;
+        }
+        return createTickerHelper(type, ModBlockEntities.VESTIGE_TABLE.get(),
+                (tickLevel, pos, state, blockEntity) -> blockEntity.serverTick(tickLevel, pos));
+    }
+
+    @SuppressWarnings("unchecked")
+    private static <A extends BlockEntity, E extends BlockEntity> @Nullable BlockEntityTicker<A> createTickerHelper(
+            BlockEntityType<A> actual, BlockEntityType<E> expected, BlockEntityTicker<? super E> ticker) {
+        return expected == actual ? (BlockEntityTicker<A>) ticker : null;
+    }
+}

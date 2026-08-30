@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "com.emiliomanco.vestigia.mixin",
+  "mixins": [
+    "LivingEntityPinnedMixin",
+    "PlayerPinnedPoseMixin",
+    "FallingBlockEntityAccessor",
+    "ItemStackKukulkanMixin"
+  ],
+  "client": [
+    "client.PlayerModelPinnedMixin",
+    "client.LivingEntityFrozenPoseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

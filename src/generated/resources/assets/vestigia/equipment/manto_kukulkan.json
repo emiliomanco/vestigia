@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "vestigia:manto_kukulkan"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "vestigia:manto_kukulkan"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "vestigia:manto_kukulkan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "parent": "builtin/entity",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        97,
+        0
+      ],
+      "translation": [
+        0,
+        -5.25,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        97,
+        0
+      ],
+      "translation": [
+        0,
+        -5.25,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -67,
+        0
+      ],
+      "translation": [
+        0,
+        -3.5,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -67,
+        0
+      ],
+      "translation": [
+        0,
+        -3.5,
+        0
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        -33.25
+      ],
+      "translation": [
+        -4.75,
+        -7.25,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        6.25,
+        0
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -9,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "particle": "vestigia:item/maquahuitl"
+  }
+}

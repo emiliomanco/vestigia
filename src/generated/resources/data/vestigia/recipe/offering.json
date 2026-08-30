@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "W": "minecraft:wheat"
+  },
+  "pattern": [
+    " W ",
+    "WGW",
+    " W "
+  ],
+  "result": {
+    "count": 6,
+    "id": "vestigia:offering"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.35,
+    "salt": 1471822,
+    "separation": 28,
+    "spacing": 64
+  },
+  "structures": [
+    {
+      "structure": "vestigia:incan_temple_of_inti",
+      "weight": 1
+    }
+  ]
+}

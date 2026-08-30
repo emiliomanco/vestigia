@@ -1,0 +1,13 @@
+{
+  "type": "vestigia:vestige_ritual",
+  "experience": 12.0,
+  "ingredients": [
+    "vestigia:otorongo_fang",
+    "vestigia:otorongo_fang",
+    "minecraft:gold_ingot",
+    "vestigia:macuahuitl"
+  ],
+  "result": {
+    "id": "vestigia:otorongo_helm"
+  }
+}

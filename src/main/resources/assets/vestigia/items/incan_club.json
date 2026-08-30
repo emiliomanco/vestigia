@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "vestigia:item/incan_club",
+    "model": {
+      "type": "geckolib:geckolib"
+    }
+  }
+}

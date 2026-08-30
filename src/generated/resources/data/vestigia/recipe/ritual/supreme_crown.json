@@ -1,0 +1,41 @@
+{
+  "type": "vestigia:vestige_ritual",
+  "experience": 40.0,
+  "ingredients": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "vestigia:bending_branch": "earth"
+      },
+      "items": "vestigia:corona_pachamama",
+      "strict": true
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "vestigia:bending_branch": "water"
+      },
+      "items": "vestigia:corona_pachamama",
+      "strict": true
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "vestigia:bending_branch": "air"
+      },
+      "items": "vestigia:corona_pachamama",
+      "strict": true
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "vestigia:bending_branch": "fire"
+      },
+      "items": "vestigia:corona_pachamama",
+      "strict": true
+    }
+  ],
+  "result": {
+    "id": "vestigia:supreme_crown"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "vestigia:item/sundisk",
+    "model": {
+      "type": "geckolib:geckolib"
+    }
+  }
+}

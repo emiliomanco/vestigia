@@ -1,0 +1,37 @@
+license = "${mod_license}"
+issueTrackerURL = "https://github.com/emiliomanco/vestigia/issues"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/vestigia"
+logoFile = "icon.png"
+credits = "Made by emiliomanco"
+description = '''This mod adds the Mayan civilization and a variety of vestiges.'''
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${neo_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "geckolib"
+type = "required"
+reason = "Vestigia's vestiges, guardians and animal gods use GeckoLib animated models."
+versionRange = "[5.5.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "${mod_id}.mixins.json"

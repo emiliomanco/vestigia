@@ -1,0 +1,7 @@
+{
+  "type": "vestigia:incan_lunar_stone",
+  "biomes": "#vestigia:has_structure/incan_lunar_stone",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin"
+}

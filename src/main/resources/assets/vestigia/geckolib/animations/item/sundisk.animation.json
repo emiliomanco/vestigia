@@ -1,0 +1,47 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"active.disk": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"group": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.0": {
+							"vector": [720, 0, 720],
+							"easing": "linear"
+						}
+					}
+				},
+				"ray8": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rays": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.0": {
+							"vector": [0, 0, -180]
+						}
+					}
+				},
+				"core": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.0": {
+							"vector": [-1440, 0, -1440]
+						}
+					}
+				}
+			}
+		}
+	}
+}

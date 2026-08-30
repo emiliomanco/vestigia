@@ -1,0 +1,117 @@
+{
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        2.5,
+        -13,
+        0.75
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        2.5,
+        -13,
+        0.75
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        3,
+        -13,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        3,
+        -13,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -1.25,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        -8,
+        0
+      ],
+      "scale": [
+        0.668,
+        0.668,
+        0.668
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -12,
+        -7
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -48,
+        -2
+      ],
+      "scale": [
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  "textures": {
+    "particle": "vestigia:item/punchao"
+  }
+}

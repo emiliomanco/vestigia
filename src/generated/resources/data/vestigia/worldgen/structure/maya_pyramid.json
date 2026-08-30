@@ -1,0 +1,24 @@
+{
+  "type": "vestigia:maya_pyramid",
+  "biomes": "#vestigia:has_structure/maya_pyramid",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "vestigia:mayan_warrior",
+          "maxCount": 3,
+          "minCount": 1,
+          "weight": 5
+        },
+        {
+          "type": "vestigia:mayan_shaman",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "step": "surface_structures"
+}

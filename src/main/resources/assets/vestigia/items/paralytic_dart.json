@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "vestigia:item/blowgun_dart_item",
+    "model": {
+      "type": "geckolib:geckolib"
+    }
+  }
+}

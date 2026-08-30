@@ -1,0 +1,96 @@
+{
+  "parent": "builtin/entity",
+  "texture_size": [
+    76,
+    76
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -28.5,
+        0
+      ],
+      "translation": [
+        1,
+        0,
+        -3
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0.6199999999998909,
+        -12.88000000000011,
+        5.3400000000001455
+      ],
+      "translation": [
+        -0.5,
+        0,
+        -4
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -9.05,
+        1.25,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -9.05,
+        1.25,
+        0
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        1.75,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        33,
+        -31.61,
+        6.57
+      ],
+      "translation": [
+        0,
+        -0.75,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -5.25,
+        -22.75
+      ]
+    }
+  },
+  "textures": {
+    "particle": "vestigia:item/blowgun"
+  }
+}
